@@ -20,9 +20,19 @@ Both Genders who make more than 50k, work more hours per week than those who mak
 On average, males work more hours per week compared to females when comparing their respectable income categories.
 
 ## Models
-I used 2 models to predict the income
+I used 2 types of models with multiple variants to predict the income
   - Logistic Regression Model
+    - Base
+    - Tuned
+    - Over Sample
+    - Under Sample
+    - PCA   
   - KNN Model
+    - Base
+    - Tuned
+    - Over Sample
+    - Under Sample
+    - PCA 
               
            Model Name       Precision    Recall      F1 Score     Accuracy
 
@@ -39,9 +49,10 @@ I used 2 models to predict the income
  
  ## Final Model Results
  After comparing the models, my recommendation is:
- - Logistic Regression Model
-  - Both models scored very close, but we want the highest scoring model possible
-  - This model gave us an 85% chance of correctly predicting an individuals income. 
+ - Logistic Regression Model w/ OverSampling
+  - This model gave us an 81% chance of correctly predicting an individuals income.
+  - We did have other models that scored higher than 81%
+  - But this model was the most balanced. 
  
  ## For Further Informtion
 For any additional questions, please contact wrodemoyer@gmail.com
